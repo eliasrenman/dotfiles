@@ -1,3 +1,5 @@
+alias git="LANG=en_US git"
+
 parse_git_branch() {
     git_status="$(git status 2> /dev/null)"
     pattern="On branch ([^[:space:]]*)"
@@ -18,12 +20,6 @@ parse_git_branch() {
 setopt PROMPT_SUBST
 PROMPT='%{%F{blue}%}%9c%{%F{green}%} $(parse_git_branch)%{%F{none}%}$ '
 
-source ~/.antidote/antidote.zsh
-antidote load
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -32,6 +28,5 @@ alias ......="cd ../../../../.."
 
 alias vim="nvim"
 alias vi="nvim"
-alias oldvim="vim"
 alias ls="exa"
-alias cat="batcat"
+alias cat="bat"
