@@ -14,11 +14,11 @@ Arc-Dark Color Scheme
 
 window {
     /* border: 1px solid @highlight; */
-    border-radius: 18px;
+    /*border-radius: 18px;
     /* background: rgba(0,0,0,0); */
     color: #bb9af7;
     position: relative;
-    background: linear-gradient(to bottom right, #73daca, #f7768e);
+    /*background: linear-gradient(to bottom right, #73daca, #f7768e); */
     padding: 1px;
 }
 
