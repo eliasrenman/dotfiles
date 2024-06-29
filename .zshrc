@@ -30,4 +30,11 @@ alias vim="nvim"
 alias vi="nvim"
 alias ls="exa"
 alias cat="bat"
-alias discord="discord --enable-features=UseOzonePlatform --ozone-platform=wayland"
+export PATH="$HOME/.npm/bin:$PATH"
+export fleet="~/.local/bin/fleet"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+# QR Code CLI Link 
+alias qr-code="/home/elias/code/qr-cli/target/release/qr-code"

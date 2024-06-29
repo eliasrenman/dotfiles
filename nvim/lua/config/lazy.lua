@@ -11,6 +11,8 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     { "folke/tokyonight.nvim" },
+    { "nvim-telescope/telescope.nvim", dependencies = "tsakirist/telescope-lazy.nvim" },
+    { 'numToStr/Comment.nvim', lazy = false, },
     -- { "catppuccin/nvim", name = "catppuccin" },
     -- import any extras modules here
     -- { import = "lazyvim.plugins.extras.lang.typescript" },
