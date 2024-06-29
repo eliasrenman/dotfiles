@@ -1,0 +1,19 @@
+{
+  "prefs": {
+    "Theme": "{\"Custom\":{\"name\":\"Tokyo Night\",\"path\":\"/home/elias/.local/share/warp-terminal/themes/tokyo_night.yml\"}}",
+    "AIRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":3,\"next_refresh_time\":\"2024-07-26T07:29:30.657880Z\"}",
+    "TelemetryEnabled": "true",
+    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"ThemePicker\"}]",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "AIAssistantRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":3,\"next_refresh_time\":\"2024-07-26T07:29:30.657880Z\"}",
+    "FontSize": "8.0",
+    "CrashReportingEnabled": "true",
+    "ChangelogVersions": "{\"v0.2024.06.25.08.02.stable_01\":true}",
+    "SystemTheme": "false",
+    "FontName": "\"JetBrainsMono Nerd Font\"",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "NotebookFontSize": "14.0",
+    "AgentModeOnboardingBlockShown": "true",
+    "ExperimentId": "c1cf10ea-79c1-46a0-a794-4db1939f4961"
+  }
+}

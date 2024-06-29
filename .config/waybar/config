@@ -151,20 +151,20 @@
             "car": "",
             "default": [""]
         },
-        "on-click": "pamixer -t",
+        "on-click": "volumectl toggle-mute",
         "on-click-right": "pavucontrol",
-        "on-scroll-up": "pamixer -i 2",
-        "on-scroll-down": "pamixer -d 2"
+        "on-scroll-up": "volumectl -u up",
+        "on-scroll-down": "volumectl -u down"
     },
 
     "pulseaudio#microphone": {
         "format": "{format_source}",
         "format-source": " {volume}%",
         "format-source-muted": " ",
-        "on-click": "pamixer --default-source -t",
+        "on-click": "volumectl -m toggle-mute",
         "on-click-right": "pavucontrol",
-        "on-scroll-up": "pamixer --default-source -i 5",
-        "on-scroll-down": "pamixer --default-source -d 5",
+        "on-scroll-up": "volumectl -m up",
+        "on-scroll-down": "volumectl -m down",
         "scroll-step": 5
     },
 
@@ -183,15 +183,15 @@
 
     "backlight#icon": {
         "format": "{icon}",
-        "on-scroll-down": "brightnessctl -c backlight set 1%-",
-        "on-scroll-up": "brightnessctl -c backlight set +1%"
+        "on-scroll-down": "lightctl down",
+        "on-scroll-up": "lightctl up"
     },
 
     "backlight#value" :{
          "format": "{icon} {percent}%",
          "format-icons": [" "],
-         "on-scroll-down": "brightnessctl -c backlight set 1%-",
-         "on-scroll-up": "brightnessctl -c backlight set +1%"
+         "on-scroll-down": "lightctl down",
+         "on-scroll-up": "lightctl up"
     },
 
     "custom/power": {
