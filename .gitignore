@@ -8,3 +8,7 @@
 .config/pulse
 .config/nwg-look
 .config/configstore
+mozilla
+chromium
+lazy-lock.json
+*.tmTheme
